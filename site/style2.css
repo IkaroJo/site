@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+
+}
+ header {
+    display: flex;
+    flex-direction: row;
+    line-height: 10px;
+    justify-content: space-between;
+    color: rgb(114, 71, 155);
+
+ }
+
+ a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2.5px solid rgb(114, 71, 155) 
+
+    
+
+ }
+
+ .contato {
+
+    border: 2.5px solid rgb(114, 71, 155) 
+
+
+}
+
+ a:hover {
+    color: rgb(114, 71, 155);
+    transition: 0.3s all;
+ }
+
+
+ li {
+    display: inline-block;
+    margin: 25px;
+    padding-inline: 15px;
+    font-size: 15px;
+ }
+
+ h1 {
+    font-weight: 300;
+
+ }
+
+ main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+ }
+
+ h2 {
+    font-size: 30px;
+    font-weight: 100px;
+    color: rgb(114, 71, 155);
+    font-weight: 200;
+
+ }
+
+ p {
+    line-height: 20px;
+    max-width: 500px;
+ }
+
+ article img {
+    padding-left: 210px;
+    width: 400px;
+ }
