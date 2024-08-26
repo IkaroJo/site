@@ -6,72 +6,61 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 15px;
-
 }
- header {
+
+header {
     display: flex;
     flex-direction: row;
     line-height: 10px;
     justify-content: space-between;
     color: rgb(114, 71, 155);
+}
 
- }
-
- a {
+a {
     color: white;
     text-decoration: none;
     font-size: 16px;
-    border: 2.5px solid rgb(114, 71, 155) 
-
-    
-
- }
-
- .contato {
-
-    border: 2.5px solid rgb(114, 71, 155) 
-
-
+    border: 2.5px solid rgb(114, 71, 155); /* Adicionado ponto e vírgula */
 }
 
- a:hover {
+.contato { /* Certifique-se de que este nome de classe corresponda ao HTML */
+    border: 2.5px solid rgb(114, 71, 155); /* Adicionado ponto e vírgula */
+}
+
+a:hover {
     color: rgb(114, 71, 155);
     transition: 0.3s all;
- }
+}
 
-
- li {
+li {
     display: inline-block;
     margin: 25px;
     padding-inline: 15px;
     font-size: 15px;
- }
+}
 
- h1 {
+h1 {
     font-weight: 300;
+}
 
- }
-
- main {
+main {
     display: flex;
     flex-direction: row;
     margin-top: 50px;
- }
+}
 
- h2 {
+h2 {
     font-size: 30px;
-    font-weight: 100px;
+    font-weight: 200; /* Removido o valor incorreto */
     color: rgb(114, 71, 155);
-    font-weight: 200;
+}
 
- }
-
- p {
+p {
     line-height: 20px;
     max-width: 500px;
- }
+}
 
- article img {
-    padding-left: 210px;
+article img {
+    padding-left: 210px; /* Ajuste se necessário */
     width: 400px;
- }
+}
